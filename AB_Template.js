@@ -21,7 +21,7 @@ function draw(){
   scale(M);
 }
 function windowResized() {
-  dim = Math.min(window.innerWidth, window.innerHeight);
+  dim = min(window.innerWidth, window.innerHeight);
   resizeCanvas(dim, dim);
   M = dim / 1000;
 }
